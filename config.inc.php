@@ -55,12 +55,12 @@ Typecho_Common::init();
 /** 定义数据库参数 */
 $db = new Typecho_Db('Mysql', 'typecho_');
 $db -> addServer(array (
-	'host' => '10.4.14.186',
-	'user' => 'ugnzYwOtGNyib',
-	'password' => 'pZ3RIEBVycRJw',
+	'host' => '10.4.12.46',
+	'user' => 'udiPUhEjWiKZw',
+	'password' => 'pjVorwqcluJSU',
 	'charset' => 'utf8',
 	'port' => '3306',
-	'database' => 'da095a1e61a4148c99e5915c242f7c550',
+	'database' => 'dd1eea556a62f4e12a196c7954b4c1c61',
 	), 
 Typecho_Db::READ | Typecho_Db::WRITE);
 Typecho_Db::set($db);
